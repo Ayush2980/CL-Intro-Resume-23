@@ -1,0 +1,10 @@
+table {
+  display: flex;
+  justify-content: center;
+}
+tr{
+    margin: 10px;
+}
+th{
+    margin: 10px;
+}

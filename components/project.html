@@ -2,24 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="my resume">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="harsh singh">
+    <meta name="description" content="my resume" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="harsh singh" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/stylesheets/navbar.css">
+    <link rel="stylesheet" href="../static/stylesheets/main-body.css">
+    <link rel="stylesheet" href="../static/stylesheets/projects.css">
     <title>Document</title>
   </head>
   <body>
-    <marquee>@harsh-singh</marquee>
-    <div>
-      <h1>My Projects</h1>
-      <hr />
-      <a href="project.html">My Projects</a>
-      <a href="index.html">About Me</a>
-      <a href="contactme.html">Contact Me</a>
-      <hr />
-    </div>
-    <div>
-      <table style="display: flex; justify-content: center">
+    <nav>
+      <div class="left-bar">
+          <img class="Nav-image" src="../static/assets/img.jpeg" alt="">
+          <h1 class="name">Portfolio</h1>
+      </div>
+      <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contactme.html">Contact</a></li>
+      </ul>
+  </nav>
+    <div class="main-body" style="margin: 10%; margin-left: 23%;">
+      <table>
         <tr>
           <th>My First website</th>
           <th>My Second website</th>
@@ -31,6 +36,7 @@
           <td><a href="https://www.concetto.in/#/">My 3rd website</a></td>
         </tr>
       </table>
+      <marquee behavior="alternate" direction="">Made with ❤️ and 🚬 by Barman and Singh</marquee>
     </div>
   </body>
 </html>
